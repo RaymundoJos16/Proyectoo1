@@ -1,0 +1,139 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+  padding: 0%;
+  margin: 0%;
+}
+
+header{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100%;
+  position: relative;
+  width: 100%;
+  height: 10%;
+  background-color: rgb(255, 246, 246);
+  color: beige;
+  display: flex;
+  align-items: center;
+  /*justify-content:space-between;*/
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  height: 1%;
+  padding: 1%;
+  font-size: 50px;
+  transition: all 0.3s;
+  
+}
+.logo i{
+  color: red;
+  font-size: 30px;
+  
+}
+.header .logo i:hover{
+  transform: scale(1.2);
+}
+.navbar{
+  position: relative;
+  width:60%;
+}
+.Box{
+  display: flex;
+  /*justify-content: center;*/
+  align-items: center;
+  outline: none;
+  position: relative;
+  width: 100%;
+  outline: none;
+  
+}
+
+.Box input{
+  display: block;
+  width: 100%;
+  margin: auto;
+  height: 45px;
+  text-indent: 42px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background-color: rgb(231, 230, 227);
+}
+
+#searchIcon{
+  position: relative;
+  right: -30px;
+  font-size: 18px;
+  color: rgb(182, 168, 153);
+  z-index: 2021;
+  cursor: pointer;
+}
+.ul1 a{
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+  font-size: 18px;
+  height: 15px;
+  padding: 10px;
+  text-decoration: none;
+}
+.ul1 ul li a{ 
+  color: black;
+  padding: 20px 10px;
+  padding-bottom: 10px;
+}
+.ul1 ul li{
+  display: inline-block;
+  transition: all .4s;
+}
+.ul1 ul li a:hover{
+  background: black;
+  color: white;
+  border-radius: 10px;
+}
+a{
+  display: flex;
+  font-size: 22px;
+  height: 15px;
+  padding: 10px;
+  text-decoration: none;
+}
+.ul2 ul a{ 
+  color: black;
+  padding: 10px;
+  padding-bottom: 15px;
+  transition: all .4s;
+}
+.ul2 ul a:hover{
+  transform: scale(1.2);
+  background-color: rgb(236, 236, 213);
+  border-radius: 50%;
+}
+@media screen and (max-windth :1220px) {
+  .Box,
+  .Box input{
+    width: 100%;
+  }
+}
+
+
+
+main{
+  background-color: rgb(255, 255, 255);
+  margin: 0.5em;
+}
+ img{
+  max-width: 100%;
+  margin-bottom: 0.5em;
+  display: block;
+  border-radius: 10%;
+ } 
+  .content{
+  columns:5 320px ;
+  column-gap: 0.5em;
+  
+ }
+  
